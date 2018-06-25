@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    tools:context="com.app.fiche.shoppinglist.LaunchActivity">
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:id="@+id/shop_list_adapter_text_view_name">
+    </TextView>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/shop_list_adapter_text_view_date">
+    </TextView>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:id="@+id/shop_list_adapter_text_view_status">
+    </TextView>
+
+    <TextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:gravity="center"
+        android:textSize="0sp"
+        android:id="@+id/shop_list_adapter_text_view_id">
+    </TextView>
+
+    <!--<ImageView-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="3"-->
+        <!--android:id="@+id/shop_list_adapter_image_view"/>-->
+</LinearLayout>

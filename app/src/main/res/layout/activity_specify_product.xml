@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.app.fiche.shoppinglist.AddShopListActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:text="@string/product_details"
+        android:gravity="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:hint="@string/insert_product_name"
+        android:id="@+id/specify_item_edit_text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:weightSum="90">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="@string/to_buy"
+            android:gravity="center"
+            android:textSize="15sp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:text="-"
+            android:id="@+id/minus_button"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:id="@+id/to_buy_edit_text"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:text="+"
+            android:id="@+id/plus_button"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:id="@+id/specify_item_text_view"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="@string/enter"
+        android:gravity="center"
+        android:id="@+id/add_product_to_shop_list_button"/>
+
+
+</LinearLayout>
